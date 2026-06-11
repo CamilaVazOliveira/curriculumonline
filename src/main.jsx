@@ -7,7 +7,7 @@ import { BrowserRouter } from 'react-router-dom'
 import 'bootstrap-icons/font/bootstrap-icons.css'
 
 createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
+  <BrowserRouter base="/curriculumonline/">
     <App />
   </BrowserRouter>,
 )
